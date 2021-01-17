@@ -5,6 +5,7 @@
 <body>
 <center>
 <video src="blog.mp4" id="blog" autoplay controls>
+    <source src="blog.mp4" type="video/mp4">
 We're no strangers to love<br>
 You know the rules and so do I<br>
 A full commitment's what I'm thinking of<br>
@@ -125,9 +126,9 @@ Never gonna make you cry, never gonna say goodbye<br>
 Never gonna tell a lie and hurt you<br><br>
 
  <script>
-function myFunction() {
+function myFunction() 
+{
   var x = document.getElementById("blog").autoplay;
-  document.getElementById("demo").innerHTML = x;
 }
 </script>
     
